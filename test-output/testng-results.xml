@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Learning" duration-ms="18289" started-at="2012-12-09T09:49:49Z" finished-at="2012-12-09T09:50:07Z">
+    <groups>
+    </groups>
+    <test name="selenium test" duration-ms="6" started-at="2012-12-09T09:49:49Z" finished-at="2012-12-09T09:49:49Z">
+    </test> <!-- selenium test -->
+    <test name="Login test" duration-ms="18248" started-at="2012-12-09T09:49:49Z" finished-at="2012-12-09T09:50:07Z">
+      <class name="dd_tests.loginTest">
+        <test-method status="PASS" signature="isSkip()[pri:0, instance:dd_tests.loginTest@66100363]" name="isSkip" is-config="true" duration-ms="8" started-at="2012-12-09T15:19:49Z" finished-at="2012-12-09T15:19:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:dd_tests.loginTest@66100363]" name="doLogin" duration-ms="18224" started-at="2012-12-09T15:19:49Z" data-provider="getData" finished-at="2012-12-09T15:20:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- dd_tests.loginTest -->
+    </test> <!-- Login test -->
+    <test name="RegisterUsers test" duration-ms="12" started-at="2012-12-09T09:50:07Z" finished-at="2012-12-09T09:50:07Z">
+      <class name="dd_tests.registerUserTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:dd_tests.registerUserTest@4a53fb57]" name="init" is-config="true" duration-ms="4750" started-at="2012-12-09T15:19:44Z" finished-at="2012-12-09T15:19:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_tests.registerUserTest@4a53fb57]" name="isSkip" is-config="true" duration-ms="0" started-at="2012-12-09T15:20:07Z" finished-at="2012-12-09T15:20:07Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test as runmode set to No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test as runmode set to No
+	at dd_tests.registerUserTest.isSkip(registerUserTest.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="userRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dd_tests.registerUserTest@4a53fb57]" name="userRegisteration" duration-ms="1" started-at="2012-12-09T15:20:07Z" data-provider="getData" finished-at="2012-12-09T15:20:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1984.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ramanselenium123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[raman@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[raman@123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[seleniumcoaching@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[9.999994994E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegisteration -->
+        <test-method status="SKIP" signature="stopServer()[pri:0, instance:dd_tests.registerUserTest@4a53fb57]" name="stopServer" is-config="true" duration-ms="0" started-at="2012-12-09T15:20:07Z" finished-at="2012-12-09T15:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopServer -->
+      </class> <!-- dd_tests.registerUserTest -->
+    </test> <!-- RegisterUsers test -->
+  </suite> <!-- TestNG Learning -->
+</testng-results>
